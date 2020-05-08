@@ -1,6 +1,12 @@
---- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/tabom1919/BankUiPlugin
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/HmmHmmmm/MailPlugin
 build-by-default: true
 branches:
 - master
-projects: []
+projects:
+  BankUiPlugin:
+    path: ""
+    icon: "images/icon.png"
+    libs:
+    - src: NightLife/bank/BankUiPlugin
+      version: ^1.0.1
 ...
