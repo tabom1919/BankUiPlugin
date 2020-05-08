@@ -9,4 +9,5 @@ projects:
     libs:
     - src: NightLife/bank/BankUiPlugin
       version: ^1.0.1
+      api: 3.11.7
 ...
